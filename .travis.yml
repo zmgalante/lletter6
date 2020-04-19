@@ -14,5 +14,6 @@ deploy:
   skip_cleanup: true
   github_token: $github_token
   local_dir: build
+  site_url: https://zmgalante.github.io/lletter6/
   on:
     branch: master
