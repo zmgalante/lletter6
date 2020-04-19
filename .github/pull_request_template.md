@@ -1,5 +1,6 @@
 * **Please check if the PR fulfills these requirements**
-- [ ] The PR has all the questions below responded
+- [ ] Add which issue is affected by this and how, to know how to do this check [here](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
+- [ ] Make sure only 1 commint message is present in the commit (if this only addresses 1 issue)
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Docs have been added / updated (for bug fixes / features)
 
