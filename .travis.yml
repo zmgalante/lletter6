@@ -2,12 +2,19 @@ language: node_js
 install:
   - yarn
 node_js:
-  - "stable"
+  - 'stable'
+addons:
+  apt:
+    packages:
+      # needed by Cypress, not in Ubuntu 16+ by default
+      - libgconf-2-4
 cache:
   directories:
-    - "$HOME/.yarn-cache"
+    - '$HOME/.yarn-cache'
+    - '$HOME/travis/.cache/Cypress'
 script:
-  - yarn test
+  - cypress install
+  - yarn test:full
   - NODE_ENV=production yarn build
 deploy:
   provider: pages

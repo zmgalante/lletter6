@@ -23,5 +23,8 @@
     "react/jsx-filename-extension": ["off"],
     "react/prop-types": ["warn"],
     "no-return-assign": ["off"]
+  },
+  "globals": {
+    "cy": "readonly"
   }
 }
