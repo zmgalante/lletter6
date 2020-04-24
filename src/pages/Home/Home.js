@@ -11,7 +11,9 @@ const Home = () => (
     <ul>
       <li>Start Playing</li>
       <li>
-        <Link to="how-to-play">How To Play</Link>
+        <Link data-test="how-to-play-link" to="how-to-play">
+          How To Play
+        </Link>
       </li>
     </ul>
   </section>
