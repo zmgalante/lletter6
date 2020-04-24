@@ -9,8 +9,8 @@ import * as serviceWorker from './serviceWorker';
 render(
   <React.StrictMode>
     <Router>
-      <Home path="/" />
-      <HowToPlay path="how-to-play" />
+      <Home path={`${process.env.PUBLIC_URL}/`} />
+      <HowToPlay path={`${process.env.PUBLIC_URL}/how-to-play`} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root'),
