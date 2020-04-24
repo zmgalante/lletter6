@@ -1,12 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import { render } from 'react-dom';
+import { Router } from '@reach/router';
 import Home from './pages/Home/Home';
+import HowToPlay from './pages/HowToPlay/HowToPlay';
+import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+render(
   <React.StrictMode>
-    <Home />
+    <Router>
+      <Home path="/" />
+      <HowToPlay path="how-to-play" />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root'),
 );
