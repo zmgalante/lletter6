@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lletter6/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/lletter6/static/js/main.e4bf4043.chunk.js",
+    "main.js.map": "/lletter6/static/js/main.e4bf4043.chunk.js.map",
+    "runtime-main.js": "/lletter6/static/js/runtime-main.50b47052.js",
+    "runtime-main.js.map": "/lletter6/static/js/runtime-main.50b47052.js.map",
+    "static/js/2.7d1f6046.chunk.js": "/lletter6/static/js/2.7d1f6046.chunk.js",
+    "static/js/2.7d1f6046.chunk.js.map": "/lletter6/static/js/2.7d1f6046.chunk.js.map",
+    "index.html": "/lletter6/index.html",
+    "precache-manifest.2fc12bf0ca626d5d4dd84b61e5f5f775.js": "/lletter6/precache-manifest.2fc12bf0ca626d5d4dd84b61e5f5f775.js",
+    "service-worker.js": "/lletter6/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/lletter6/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.7d1f6046.chunk.js.LICENSE.txt": "/lletter6/static/js/2.7d1f6046.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50b47052.js",
+    "static/js/2.7d1f6046.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.e4bf4043.chunk.js"
+  ]
+}
