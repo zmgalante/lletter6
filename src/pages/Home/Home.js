@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from '@reach/router';
-// import classes from './styles/Home.module.scss';
+import classes from './styles/Home.module.scss';
 
 const Home = () => (
   <section>
-    <header>
-      <h1>Love Letter</h1>
+    <header className={classes.title}>
+      <h1 className={classes.pageTitle}>Love Letter</h1>
       <h2>6-player version</h2>
     </header>
-    <ul>
+    <ul className={classes.headerLines}>
       <li>Start Playing</li>
       <li>
         <Link data-test="how-to-play-link" to="how-to-play">
